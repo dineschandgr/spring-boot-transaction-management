@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-@Transactional(rollbackOn = Exception.class)
 public class AddressService {
 
     @Autowired
